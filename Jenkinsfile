@@ -14,7 +14,7 @@ pipeline {
     }
     stage("do") {
       steps {
-        sh 'dagger do hello --log-format=plain'
+        sh 'dagger do build --log-format=plain'
       }
     }    
   }
