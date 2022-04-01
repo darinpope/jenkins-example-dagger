@@ -1,5 +1,8 @@
 pipeline {
   agent any
+  environment {
+    DH_CREDS=credentials('dh-creds')
+  }
   stages {
     stage("setup") {
       steps {
