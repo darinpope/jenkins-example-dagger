@@ -1,6 +1,6 @@
 // from https://github.com/dagger/dagger; tag = v0.2.4
 // https://github.com/dagger/dagger/blob/main/pkg/universe.dagger.io/examples/helloworld/helloworld.cue
-package helloworld
+package firstapp
 
 import (
 	"dagger.io/dagger"
